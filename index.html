@@ -2,15 +2,36 @@
 <html lan="en">
     <head>
         <title>MY first HTML Document</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
+
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Crazy new Heading</h1>
-        <p>My First Paragraph</p>
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p class="class-black">
+            Consectetur adipiscing elit, vestibulum viverra mattis lacinia. Vestibulum sed dolor sit amet justo pretium viverra sit amet ac urna. Donec finibus et elit ac eleifend. Quisque id elit quam. Integer maximus nisl mi, nec lobortis est malesuada at. Donec fringilla libero vel sem molestie, sed porttitor diam mollis. Fusce eu felis quis est condimentum hendrerit. Morbi rutrum sapien sed felis pharetra, ac iaculis sapien dignissim. Sed venenatis, lacus et posuere condimentum, est lorem facilisis nulla, quis ultricies nisl felis vitae neque. Nullam fringilla ex arcu, a dapibus orci ullamcorper ut. Ut sem mi, posuere sed ligula ut, maximus volutpat ipsum. Nunc vel mi vel tellus laoreet consectetur id sit amet nisl. Phasellus facilisis, erat quis tempus bibendum, purus leo commodo erat, nec tempor ipsum mauris at nisl.
+        </p>
 
-        <h2> Embedding Images in HTML. </h2>
+        <p class="class-black">
+            Mauris pretium turpis vitae libero convallis sodales. Vivamus venenatis augue sed lacus egestas dapibus. Vestibulum in posuere turpis, in porttitor velit. Nunc quis augue ante. Aliquam finibus hendrerit tincidunt. Quisque ullamcorper est at tincidunt dapibus. Duis in orci volutpat nisl hendrerit interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur tincidunt purus ut pulvinar. Aenean neque magna, interdum et laoreet vel, ullamcorper ac est. Phasellus tempus suscipit fringilla. Vestibulum elementum et turpis in mattis.
+        </p>
+        <p class="class-black">
+            Nullam neque tellus, dapibus id finibus non, facilisis ut eros. Donec commodo in massa a tempus. Maecenas eu nibh in nulla suscipit tincidunt. Mauris vel lorem a metus dictum sollicitudin ut porttitor purus. Maecenas tempor orci justo, ac elementum elit finibus id. Vestibulum et pellentesque enim. Suspendisse malesuada elit a massa fringilla pharetra.
+            Duis iaculis id arcu ut vestibulum. Etiam vel est condimentum felis convallis efficitur sit amet eget elit. Suspendisse semper tempus mauris a varius. Sed at lacinia turpis. Suspendisse porta eu ante a interdum. Nulla consequat arcu in purus dapibus, sit amet cursus nisl euismod. Phasellus in pulvinar est. Etiam pulvinar dolor sit amet massa condimentum iaculis. Aenean tortor ante, faucibus in blandit ut, pulvinar sit amet odio.
+        </p>
+        <p class="class-black">
+            Suspendisse non nulla nulla. Cras convallis sagittis est, at facilisis odio luctus non. Ut semper lobortis mi quis hendrerit. Nulla feugiat at lectus nec lacinia. Proin nec imperdiet magna. Quisque convallis lectus ut venenatis vestibulum. Vestibulum vulputate nunc tellus, id hendrerit tortor aliquet vel. Sed suscipit sodales imperdiet. </p>
+        </p>
+        <h2 class="class-black"> Embedding Images in HTML. </h2>
 
     <div style="background-image: url('leaopard.jpg');">
-        <div style="color: white;">
+        <div id="l-align">
         <h2> Hyperlinks in HTML. </h2>
 
         <a href="https://www.monash.edu/">
@@ -19,15 +40,77 @@
 
         <h2> Hyperlinks in HTML. </h2>
         </div>
-        <div style="color: red;">
-            <h2>HEADing of first group</h2>
-            <p>THis paragraph is in 1st group</p>
+        <div id="c-align">
+            <h2 class="class-white">HEADing of first group</h2>
+            <p id="idselect">THis paragraph is in the 1st group 1 </p>
+            <p class="class-select">THis paragraph is in the 1st group 2 </p>
+            <p class="class-select">THis paragraph is in the 1st group 3 </p>
+            <p>THis paragraph is in the 1st group 4 and is <span class='red_text'>red</span></p>
+            <p>THis paragraph is in the 1st group 5 and is <span class='green_text'>green</span></p>
+            <p>THis paragraph is in the 1st group 6 and is <span class='twentypx_text'>20px</span></p>
+            <p>THis paragraph is in the 1st group 6 and is <span class='bold_text'>bold</span></p>
+            <p>THis paragraph is in the 1st group 6 and is <span class='italic_text'>italic</span></p>
+            <p>THis paragraph is in the 1st group 6 and is <span class='i_b_text'>bold and italic</span></p>
         </div>
 
-        <div style="color: green;">
+        <div id="r-align">
             <h2>HEADing of second group</h2>
-            <p>THis paragraph is in 2nd group</p>
+            <p>
+                THis paragraph is in 2nd group
+            </p>
+                <h2 class="class-select">
+                    In well-vaccinated countries, surging <span class='cases_text'>cases</span> span are no longer mirrored in <span class='deaths_text'>deaths</span>.<br>
+                    In countries where few are vaccinated, <span class='deaths_text'>death rates</span> are hitting record highs. 
+                </h2>
+                <p class="class-select">
+                Weekly <span class='cases_text'>cases</span> per 100k people, and <span class='deaths_text'>weekly deaths</span> per 2 million
+                </p>
         </div>
     </div>
+    <div class="outer">
+        <div class="inner">
+            <img src="dog1.jpg"/>
+            <p class="class-black">This is Dog 1</p>
+        </div>
+        <div class="inner">
+            <img src="dog2.jpg"/>
+            <p class="class-black">This is Dog 2</p>
+        </div>
+        <div class="inner">
+            <img src="dog3.jpg"/>
+            <p class="class-black">This is Dog 3</p>
+        </div>
+        <div class="inner">
+            <img src="dog4.jpg"/>
+            <p class="class-black">This is Dog 4</p>
+        </div>
+        <div class="pure-g" id="c-align">
+            <div class="pure-u-1">
+                <img src="banner.png"/>
+            </div>
+        <div class="pure-u-1-3">
+            <div id='text_div'>
+                <h1 class="class-font">The Index</h1>
+                <p class="class-fonts">
+                    The annual European Backpacker Index, compiled by priceoftravel.com, is designed to help money-savy travellers find the cheapest European cities 
+                    and plan an accurate budget for when they visit. 
+                    <br><br>
+                    Prices for most things like hostels, transportation and attractions are fixed and certain. However, prices for a 'budget lunch' or a pint of beer can 
+                    vary depending on where you go. The index takes all of these factors into account to calculate the approximate price of a day in each city, including 
+                    an overnight stay at a backpacker hostel. 
+                    <br><br>
+                    Here we review the top five cheapest European cities, as featured on the 2018 Index. Review the complete list of 59 cities at 
+                    https://www.priceoftravel.com/1979/european- backpacker-index/.
+                </p>
+            </div>
+        </div>
+        <div class="pure-u-1-3">
+            <h1 class="class-font">The daily cost covers</h1>
+            <img src="center.png"/>
+        </div>
+        <div class="pure-u-1-3">
+            <h1 class="class-font">The cheapest cities</h1>
+            <img src="right.png"/>
+        </div>
     </body>
 </html>

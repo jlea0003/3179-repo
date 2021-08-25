@@ -1,0 +1,117 @@
+/*selectors in html*/
+/*
+font-family: 'Fondamento', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+h1 {
+    font-family: 'Fondamento';
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color:gainsboro;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color:gainsboro;
+}
+
+#idselect {
+    color: blue;
+}
+
+.class-select {
+    color:aquamarine;
+}
+
+.class-black {
+    color:black;
+    font-family: 'Fondamento';
+}
+#text_div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.class-font {
+    color:#527298;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.class-fonts {
+    color:#527298;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.cases_text {
+    color:#2590c8;
+}
+
+.deaths_text {
+    color:#d13141;
+}
+
+.red_text {
+    color:red;
+}
+
+.green_text {
+    color:green;
+}
+
+.twentypx_text {
+    font: 20px Roboto, sans-serif;
+}
+
+.bold_text {
+    font: bold 15px Roboto, san-serif;
+}
+
+.italic_text {
+    font: italic 15px Roboto, san-serif;
+}
+
+.i_b_text {
+    font: italic bold 15px Roboto, san-serif;
+}
+
+#l-align {
+    text-align: left;
+    border: 1px solid white;
+}
+
+#c-align {
+    text-align: center;
+    border: 1px solid white;
+}
+
+#r-align {
+    text-align: right;
+    border: 1px solid white;
+}
+
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.inner img {
+    height : 60vh;
+}
+
+html, body {
+    background-color: #F3FAF9;
+}
+
+.pure-u-1 img {
+    width: 100vw;
+}
+
+.pure-u-1-3 img {
+    width: 30vw;
+    height: 30vw;
+}
+
+.pure-u-1-3 {
+    margin-top: 30px;
+    height: 30vw;
+}
